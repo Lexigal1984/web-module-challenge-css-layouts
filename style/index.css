@@ -1,1 +1,51 @@
-/* Add CSS styling here */
+body {
+    background-color: cadetblue;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.description {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: black;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+.information {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 120px;
+    padding: 25px 30px;
+}
